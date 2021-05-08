@@ -24,7 +24,7 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff
+    background-color: #fff;
 }
 
 h3,
@@ -101,6 +101,7 @@ img {
 
 
 /*  */
+
 .bg {
     background: url("../images/Background.png");
     background-position: center;
@@ -116,9 +117,7 @@ img {
     align-items: center;
 }
 
-
-.social{
-
+.social {
     display: flex;
     position: absolute;
     right: 0;
@@ -127,17 +126,17 @@ img {
     z-index: 3;
 }
 
-
-.social a{
+.social a {
     margin-right: 15px;
 }
+
 .social img {
     cursor: pointer;
     transition: 0.4s;
     width: 24px;
 }
 
-.social img:hover{
+.social img:hover {
     transform: scale(1.2);
 }
 
@@ -192,14 +191,13 @@ img {
     background: linear-gradient(12.7deg, #E600BB -14.32%, #E600BB -14.19%, #B311FF 114.32%);
     border: 1px solid transparent;
     line-height: 1.5;
-    border-radius: .25rem;transition: 0.3s;
+    border-radius: .25rem;
+    transition: 0.3s;
 }
 
-.mybtn:hover{
+.mybtn:hover {
     transform: scale(0.9);
 }
-
-
 
 .glasre {
     position: absolute;
@@ -358,9 +356,7 @@ img {
 }
 
 @media (max-width: 555px) {
-    .social{
-
-    
+    .social {
         margin: 80px 30px;
     }
     .mycol-left .blue {
@@ -377,20 +373,20 @@ img {
         flex-flow: column;
         margin-bottom: 35%;
     }
-    .mycol-right .c1,.mycol-right .c2,
+    .mycol-right .c1,
+    .mycol-right .c2,
     .mycol-right .c3 {
         margin-top: 60px;
         padding: 0;
         border-left: 1px solid rgb(112 112 112);
         border-right: 1px solid rgb(112 112 112);
     }
-   
-    .mycol-right .c1::before,.mycol-right .c2::before ,
+    .mycol-right .c1::before,
+    .mycol-right .c2::before,
     .mycol-right .c3::before,
     .mycol-right .c4::before {
         display: none;
     }
- 
     .mycol-right::before {
         bottom: 305px;
         top: 185px;
