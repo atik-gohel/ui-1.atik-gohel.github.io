@@ -121,7 +121,7 @@ img {
     display: flex;
     position: absolute;
     right: 0;
-    top: 4%;
+    top: 30%;
   
     z-index: 3;
 }
@@ -357,7 +357,7 @@ img {
 
 @media (max-width: 555px) {
     .social {
-        top:2%
+        top:40%
     }
     .mycol-left .blue {
         position: absolute;
