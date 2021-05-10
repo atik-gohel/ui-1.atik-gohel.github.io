@@ -357,7 +357,7 @@ img {
 
 @media (max-width: 555px) {
     .social {
-        margin: 80px 30px;
+        top:5%
     }
     .mycol-left .blue {
         position: absolute;
